@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Josefin Sans", sans-serif;
 }
 
 .app {
@@ -49,8 +52,8 @@
 
 			h1 {
 				color: white;
-				font-size: 2.75rem;
-				letter-spacing: 0.9375rem;
+				font-size: 3rem;
+				letter-spacing: 0.75rem;
 			}
 		}
 
@@ -118,8 +121,8 @@
 					color: lightgray;
 					height: 3.125rem;
 					cursor: pointer;
-					padding: 0.625rem 1.875rem 0.625rem 3.125rem;
-					font-size: 1.1rem;
+					padding: 1.125rem 1.875rem 1.375rem 3.125rem;
+					font-size: 1.2rem;
 					list-style: none;
 					border-bottom: 1px solid rgb(57, 58, 75);
 					text-overflow: ellipsis;
@@ -233,6 +236,7 @@
 	}
 }
 
+// Mobile
 @media (max-width: 680px) {
 	.todos {
 		width: 90%;
@@ -248,4 +252,13 @@
 			}
 		}
 	}
+}
+
+::-webkit-scrollbar {
+	width: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 }
