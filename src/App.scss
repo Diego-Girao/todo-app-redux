@@ -30,3 +30,62 @@
 	min-height: 100%;
 	object-fit: cover;
 }
+
+.todos {
+	max-width: 37.5rem;
+	margin: -16.875rem auto 1.25rem auto;
+
+	.todosHeader {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		> img {
+			cursor: pointer;
+		}
+
+		h1 {
+			color: white;
+			font-size: 2.75rem;
+			letter-spacing: 0.9375rem;
+		}
+	}
+
+	.input_container {
+		margin-top: 3.125rem;
+		width: 100%;
+		position: relative;
+
+		input {
+			background-color: rgb(37, 39, 61);
+			box-shadow: rgba(0, 0, 0, 1) 0 35px 50px -15px;
+			width: 100%;
+			border: none;
+			outline: none;
+			color: white;
+			height: 3.125rem;
+			border-radius: 10px;
+			padding: 0.625rem;
+			font-size: 1.1rem;
+			padding-left: 3.125rem;
+
+			&.whiteBg {
+				background-color: white;
+				box-shadow: rgb(255, 255, 255) 0 5px 5px -10px;
+				color: black;
+			}
+		}
+	}
+
+	.circle {
+		border: 1px solid rgb(57, 58, 75);
+		height: 1.5625rem;
+		width: 1.5625rem;
+		position: absolute;
+		left: 0.9375rem;
+		top: 1.5625rem;
+		transform: translateY(-50%);
+		cursor: pointer;
+		border-radius: 50%;
+	}
+}
