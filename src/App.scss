@@ -232,3 +232,20 @@
 		}
 	}
 }
+
+@media (max-width: 680px) {
+	.todos {
+		width: 90%;
+
+		.todos_footer {
+			.types {
+				width: 100%;
+				justify-content: center;
+			}
+
+			> p {
+				display: none;
+			}
+		}
+	}
+}
