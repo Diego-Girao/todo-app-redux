@@ -79,6 +79,7 @@
 					background-color: white;
 					box-shadow: rgb(255, 255, 255) 0 5px 5px -10px;
 					color: black;
+					box-shadow: #25273d 4px 4px 24px;
 				}
 			}
 
@@ -103,6 +104,7 @@
 			overflow-x: hidden;
 			max-height: 25rem;
 			border-radius: 7px;
+			box-shadow: #25273d 4px 4px 24px;
 
 			&.active {
 				box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
@@ -236,7 +238,7 @@
 	}
 }
 
-// Mobile
+/* Mobile */
 @media (max-width: 680px) {
 	.todos {
 		width: 90%;
