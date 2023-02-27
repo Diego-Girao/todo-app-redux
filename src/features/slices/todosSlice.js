@@ -77,6 +77,7 @@ export const {
 	completeTodo,
 	removeTodo,
 	showCompletedFunction,
+	showActiveFunction,
 	showAllFunctions,
 	showActiveTodos,
 	clearCompleted,
