@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import { createSlice } from "@reduxjs/toolkit"
 
 export const todosSlice = createSlice({
@@ -44,7 +43,7 @@ export const todosSlice = createSlice({
 		},
 		showAllFunctions: (state) => {
 			state.showTodos = true
-			show.showActiveTodos = false
+			state.showActiveTodos = false
 			state.showCompletedTodos = false
 		},
 
@@ -54,7 +53,7 @@ export const todosSlice = createSlice({
 			state.activeTodos = activeTodos
 
 			state.showTodos = false
-			show.showActiveTodos = true
+			state.showActiveTodos = true
 			state.completedTodos = false
 		},
 	},
