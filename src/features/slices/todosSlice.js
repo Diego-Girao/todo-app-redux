@@ -56,11 +56,39 @@ export const todosSlice = createSlice({
 			state.showActiveTodos = true
 			state.completedTodos = false
 		},
+		showCompletedFunction: (state) => {
+			const completedTodos = state.todos.filter((todo) => todo.completed)
+
+			state.completedTodos = completedTodos
+
+			state.showTodos = false
+			state.showActiveTodos = false
+			state.showCompletedTodos = true
+		},
+		clearCompleted: (state) => {
+			state.completedTodos = []
+			state.todos = state.todos.filter((todo) => !todo.completed)
+		},
 	},
 })
 
-export const { increment, decrement, incrementByAmount } = todosSlice.actions
+export const {
+	addTodo,
+	completeTodo,
+	removeTodo,
+	showCompletedFunction,
+	showAllFunctions,
+	showActiveTodos,
+	clearCompleted,
+} = todosSlice.actions
 
-export const selectCount = (state) => state.counter.value
+export const selectTodos = (state) => state.todos.todos
+export const selectCompletedTodos = (state) => state.todos.completedTodos
+export const selectActiveTodos = (state) => state.todos.activeTodos
+
+export const selectShowTodos = (state) => state.todos.showTodos
+export const selectShowActiveTodos = (state) => state.todos.showActiveTodos
+export const selectShowCompletedTodos = (state) =>
+	state.todos.showCompletedTodos
 
 export default todosSlice.reducer
