@@ -126,17 +126,28 @@ function Todos() {
 				))}
 
 				<div className={`todos_footer ${!darkMode ? "whiteBg" : ""}`}>
-					<p>0 items left</p>
+					<p>{activeTodosNumber} items left</p>
 
 					<div className="types">
 						<div className="types">
-							<p className={`clear ${showTodos ? "active" : ""}`}>All</p>
+							<p
+								className={`clear ${showTodos ? "active" : ""}`}
+								onClick={showAllHandler}
+							>
+								All
+							</p>
 
-							<p className={`clear ${showActiveTodos ? "active" : ""}`}>
+							<p
+								className={`clear ${showActiveTodos ? "active" : ""}`}
+								onClick={showActiveHandler}
+							>
 								Active
 							</p>
 
-							<p className={`clear ${showCompletedTodos ? "active" : ""}`}>
+							<p
+								className={`clear ${showCompletedTodos ? "active" : ""}`}
+								onClick={showCompletedHandler}
+							>
 								Completed
 							</p>
 						</div>
