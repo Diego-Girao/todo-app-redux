@@ -21,11 +21,11 @@ function Todo({ content, completed, id }) {
 
 	return (
 		<div className="todo_container">
-			<div className="circle">
+			<div className={`circle ${completed ? "active" : ""}`}>
 				<img src={checkIcon} alt="" />
 			</div>
 
-			<li className={`todo ${!darkMode ? "whiteBg" : ""}`}>Example</li>
+			<li className={`todo ${!darkMode ? "whiteBg" : ""}`}>{content}</li>
 
 			<img src={crossIcon} className="delete-icon" alt="" />
 		</div>
