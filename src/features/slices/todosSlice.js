@@ -7,7 +7,7 @@ export const todosSlice = createSlice({
 		completedTodos: [],
 		activeTodos: [],
 		showTodos: true,
-		showCompletedTodos: true,
+		showCompletedTodos: false,
 		showActiveTodos: false,
 	},
 
@@ -54,7 +54,7 @@ export const todosSlice = createSlice({
 
 			state.showTodos = false
 			state.showActiveTodos = true
-			state.completedTodos = false
+			state.showCompletedTodos = false
 		},
 		showCompletedFunction: (state) => {
 			const completedTodos = state.todos.filter((todo) => todo.completed)
