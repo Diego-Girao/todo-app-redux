@@ -1,19 +1,26 @@
+<div align="center">
+<img src="public/favicon.ico" />
+
+<br>
+
 # TODO APP - Frontend Mentor
+
+</div>
 
 </div>
 
 <br>
 <div align="center">
-<a href="https://code-feed.netlify.app/"><img width="310px" src="https://img.shields.io/badge/DEPLOY-https%3A%2F%2Fcode--feed.netlify.app%2F-00B37E?style=plastic&logo=netlify" /></a>
+<a href="https://todoapp-redux-fm.netlify.app/"><img width="310px" src="https://img.shields.io/badge/DEPLOY-https%3A%2F%2Ftodoapp--redux--fm.netlify.app%2F-00B37E?style=plastic&logo=netlify" /></a>
 
 <br>
-<img src="https://img.shields.io/website?down_color=tomato&down_message=offline&label=code-feed&style=plastic&up_&up_message=online&url=https%3A%2F%2Fcode-feed.netlify.app%2F" alt="website badge" />
-<img src="https://img.shields.io/github/issues/Diego-Girao/code-feed?color=cyan&style=plastic" alt="issue badge" />
-<img src="https://img.shields.io/netlify/f60a5740-e205-406b-b034-30e121d4fbd7?style=plastic" alt="netlify badge" />
+<img src="https://img.shields.io/website?down_color=tomato&down_message=offline&label=todo-app&style=plastic&up_&up_message=online&url=https://todoapp-redux-fm.netlify.app" alt="website badge" />
+<img src="https://img.shields.io/github/issues/Diego-Girao/todo-app-redux?color=cyan&style=plastic" alt="issue badge" />
+<img src="https://img.shields.io/netlify/1fa49e62-9e25-45c5-b611-137049fe3915?style=plastic" alt="netlify badge" />
 
 <br>
 
-<a href="https://www.figma.com/file/3sRXvFq7aO5cAKW116tHNa/TODO-App---Vite?node-id=0%3A1&t=3SY2ahAdB9zNUmBK-0">
+<a href="https://www.figma.com/file/3sRXvFq7aO5cAKW116tHNa/TODO-App---Redux?node-id=0%3A1&t=oenAl60j5V3OKRmF-0">
 <img  width="310" src="https://img.shields.io/badge/Figma-Link%20do%20Projeto%20TODO%20App%20--%20Redux-blueviolet?style=plastic&logo=figma" alt="Badge do Figma"/>
 </a>
 
