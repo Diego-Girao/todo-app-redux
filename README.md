@@ -1,46 +1,119 @@
-# Getting Started with Create React App and Redux
+# TODO APP - Frontend Mentor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+</div>
 
-## Available Scripts
+<br>
+<div align="center">
+<a href="https://code-feed.netlify.app/"><img width="310px" src="https://img.shields.io/badge/DEPLOY-https%3A%2F%2Fcode--feed.netlify.app%2F-00B37E?style=plastic&logo=netlify" /></a>
 
-In the project directory, you can run:
+<br>
+<img src="https://img.shields.io/website?down_color=tomato&down_message=offline&label=code-feed&style=plastic&up_&up_message=online&url=https%3A%2F%2Fcode-feed.netlify.app%2F" alt="website badge" />
+<img src="https://img.shields.io/github/issues/Diego-Girao/code-feed?color=cyan&style=plastic" alt="issue badge" />
+<img src="https://img.shields.io/netlify/f60a5740-e205-406b-b034-30e121d4fbd7?style=plastic" alt="netlify badge" />
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://www.figma.com/file/3sRXvFq7aO5cAKW116tHNa/TODO-App---Vite?node-id=0%3A1&t=3SY2ahAdB9zNUmBK-0">
+<img  width="310" src="https://img.shields.io/badge/Figma-Link%20do%20Projeto%20TODO%20App%20--%20Redux-blueviolet?style=plastic&logo=figma" alt="Badge do Figma"/>
+</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</div>
+<br>
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este foi o quarto projeto da mentoria **Conquiste Sua Vaga** foi chamado de projeto desafiador, onde deveriamos testar ao máximo nossos limites e conhecimentos, o projeto que escolhi foi inspirado no desafio do Frontend Mentor que era a criação de um Todo app.
 
-### `yarn build`
+## Sumário
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Overview](#overview)
+  - [O Desafio](#O-Desafio)
+  - [Screenshot](#screenshot)
+- [Meu processo](#Meu-processo)
+  - [Stacks utilizadas](#Stacks-utilizadas)
+  - [O que aprendi](#O-que-aprendi)
+  - [Desenvolvimento Contínuo](#Desenvolvimento-Contínuo)
+- [Author](#author)
+- [Agradecimentos](#Agradecimentos)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### O Desafio
 
-### `yarn eject`
+- O desafio era criar um TODO App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Ter a opção de tema claro ou escuro
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Ver o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Tarefa bônus: usuário pode arrastar uma TODO da lista para organizar na ordem que quiser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br>
 
-## Learn More
+### **Screenshot - Desktop - Dark and Light theme**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="800px" src="src/images/design/desktop/desktop1.png" alt="print da tela da versão desktop, tema dark aplicado" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="800px" src="src/images/design/desktop/desktop2.png" alt="print da tela da versão desktop, tema light aplicado" />
+
+<img width="800px" src="src/images/design/desktop/desktop3.png" alt="print da tela da versão desktop, tema light aplicado" />
+
+<img width="800px" src="src/images/design/desktop/desktop4.png" alt="print da tela da versão desktop, tema light aplicado" />
+
+<br>
+
+### **Screenshot - Mobile - Dark and Light theme**
+
+<img width="300px" src="src/images/design/mobile/mobile1.png" alt="print da tela da versão mobile" />
+<img width="300px" src="src/images/design/mobile/mobile2.png" alt="print da tela da versão mobile" />
+<img width="300px" src="src/images/design/mobile/mobile3.png" alt="print da tela da versão mobile" />
+<img width="300px" src="src/images/design/mobile/mobile4.png" alt="print da tela da versão mobile" />
+
+## Meu processo
+
+- Selecionar o projeto a ser realizado
+
+- Após selecionar o projeto e ter alguns problemas com a stack inicial, foram 3 mudanças até a stack que foi utilizada, optei por utilizar _HTML5, SASS/SCSS, React, Redux e JavaScript_, sempre pensando em otimizar o desenvolvimento e aprendizado com a aplicação
+
+- Foram realizados alguns wireframes de como seria toda a estrutura do projeto
+
+- Recriei o template do Frontend Mentor usando o Figma
+
+- Iniciar o desenvolvimento do código na seguinte ordem, html, css e por último as funcionalidades javascript + react + redux
+
+### Stacks utilizadas
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=Plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=Plastic&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=Plastic=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=Plastic&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23646CFF.svg?style=Plastic&logo=redux&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=Plastic&logo=git&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=Plastic&logo=netlify&logoColor=#00C7B7)
+
+- [x] HTML5 Semântico
+- [x] SCSS | CSS Flexbox
+- [x] JavaScript
+- [x] React
+- [x] Redux
+
+### O que aprendi
+
+- Aprendi a utilizar o redux, com os reducers e a store, nunca havia utilizado porém a sua documentação é extensa e de fácil entendimento, existem diversos exemplos tambem no youtube e github.
+
+- Aplicar o conceito de que menos é mais e que nem sempre precisamos componentizar tudo.
+
+- Aprendi uma nova forma de implementar CSS, utilizando o SASS/SCSS e de forma aninhada.
+
+- Uma grande melhoria na gestão desse projeto ao utilizar o método pomodoro
+
+### Desenvolvimento Contínuo
+
+Algumas melhorias já estão mapeadas para próxima release, são as seguintes:
+
+- [x] Implementado um scroll com a barra personalizada na todo list
+- [ ] Implementar a função drag and drop na todo list
+- [ ] Adicionar a funcionalidade de editar
+- [ ] Adicionar a persistência de dados no localstorage
+
+## Author - Diego Girão
+
+[![Github](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)](https://github.com/diego-girao) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=plastic&logo=linkedin&logoColor=white)](https://linkedin.com/in/diego-girao/)
+
+## Agradecimentos
+
+Meu muito obrigado aos mentores **Pedro Marins e Henrique Andrade**, assim como os tutores e meus colegas da turma 23c e da comunidade **Code** no geral, vocês são excelentes e estão sempre dispostos a ajudar, parabéns a todos os envolvidos.
