@@ -71,10 +71,10 @@ Este foi o quarto projeto da mentoria **Conquiste Sua Vaga** foi chamado de proj
 
 ### **Screenshot - Mobile - Dark and Light theme**
 
-<img width="300px" src="src/images/design/mobile/mobile1.png" alt="print da tela da versão mobile" />
-<img width="300px" src="src/images/design/mobile/mobile2.png" alt="print da tela da versão mobile" />
-<img width="300px" src="src/images/design/mobile/mobile3.png" alt="print da tela da versão mobile" />
-<img width="300px" src="src/images/design/mobile/mobile4.png" alt="print da tela da versão mobile" />
+<img width="350px" align="left" src="src/images/design/mobile/mobile1.png" alt="print da tela da versão mobile" />
+<img width="350px" src="src/images/design/mobile/mobile2.png" alt="print da tela da versão mobile" />
+<img width="350px" align="left" src="src/images/design/mobile/mobile3.png" alt="print da tela da versão mobile" />
+<img width="350px" src="src/images/design/mobile/mobile4.png" alt="print da tela da versão mobile" />
 
 ## Meu processo
 
@@ -90,7 +90,7 @@ Este foi o quarto projeto da mentoria **Conquiste Sua Vaga** foi chamado de proj
 
 ### Stacks utilizadas
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=Plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=Plastic&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=Plastic=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=Plastic&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23646CFF.svg?style=Plastic&logo=redux&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=Plastic&logo=git&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=Plastic&logo=netlify&logoColor=#00C7B7)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=Plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/scss-%231572B6.svg?style=Plastic&logo=sass&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=Plastic=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=Plastic&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23646CFF.svg?style=Plastic&logo=redux&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=Plastic&logo=git&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=Plastic&logo=netlify&logoColor=#00C7B7)
 
 - [x] HTML5 Semântico
 - [x] SCSS | CSS Flexbox
